@@ -1,4 +1,55 @@
 body{
     font-family: 'Courier New', Courier, monospace;
+    margin: 0%;
+    padding: 0%;
     background-color: gray;
+}
+
+header{
+    background-color: #2ca58d;
+    border-bottom: 5px double #0A2342;
+}
+
+.banner{
+    display: flex;
+    border-bottom: 5px double #0A2342;
+}
+
+.pic{
+    margin: 1.5%;
+    margin-bottom: 0%;
+}
+
+
+.title{
+    text-align: center;
+    color:#0A2342; 
+    padding: 4%;
+    font-size: 300%;
+    margin-left: 40%;
+}
+
+.menunav{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.choices{
+    padding: 10%;
+    text-align: center;
+    font-size: 200%;
+    border: 1px black dashed;
+    grid-column: 1/5 auto;
+}
+
+.choices:hover{
+    background-color: #0A2342;
+}
+
+.choices a{
+    text-decoration: none;
+    color: #FFFDF7;
+    padding: 15%;
 }

@@ -6,7 +6,18 @@
     </head>
     <body>
         <header>
-
+            <div class="banner">
+                <div class="pic">
+                    <img src="images/logo.jpg" />
+                </div>
+                <div class="title">
+                    Société Lafleur
+                </div>
+            </div>
+            <div class="navigation">
+                <div class="menunav">
+                </div>
+            </div>
         </header>
         <footer>
 
