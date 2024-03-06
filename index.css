@@ -2,31 +2,32 @@ body{
     font-family: 'Courier New', Courier, monospace;
     margin: 0%;
     padding: 0%;
-    background-color: gray;
+    background-color: white;
 }
 
 header{
-    background-color: #2ca58d;
-    border-bottom: 5px double #0A2342;
+    border-bottom: 3px double #0A2342;
+    background-image: linear-gradient(155deg, #2ca58d 3%, #fce8ce 55%);
 }
 
 .banner{
+   
     display: flex;
-    border-bottom: 5px double #0A2342;
+    border-bottom: 2px double #0A2342;
 }
 
 .pic{
-    margin: 1.5%;
-    margin-bottom: 0%;
+    margin-left: 1.5%;
 }
 
 
 .title{
     text-align: center;
     color:#0A2342; 
-    padding: 4%;
+    padding: 1.5%;
+    padding-bottom: 0%;
     font-size: 300%;
-    margin-left: 40%;
+    margin-left: 30%;
 }
 
 .menunav{
@@ -37,19 +38,84 @@ header{
 }
 
 .choices{
-    padding: 10%;
+    padding: 9%;
+    margin-left: 2%;
     text-align: center;
     font-size: 200%;
-    border: 1px black dashed;
+    border: 1px #fad5a6 dashed;
+    border-bottom: none;
+    border-top: none;
     grid-column: 1/5 auto;
-}
-
-.choices:hover{
-    background-color: #0A2342;
 }
 
 .choices a{
     text-decoration: none;
-    color: #FFFDF7;
-    padding: 15%;
+    color: #0A2342;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.choices:hover{
+    border: 1px solid #2ca58d;
+    border-bottom: none;
+}
+
+.choices a:hover{
+    color: #6f6e6d;
+    text-decoration: 3px underline dashed;  
+}
+
+
+.newcollec{
+    margin: 1%;
+    border: 5px dashed #2ca58d;
+    display: flex;
+    background-image: linear-gradient( #fad5a6 , #fce8ce);
+}
+
+.textmain{
+    font-size: 200%;
+    text-align: center;
+    width: 100%;
+    margin: 5%;
+}
+
+.ici{
+    font-size: 300%;
+    margin-top: 2%;
+}
+
+.ici a{
+    color: #0A2342;
+    text-decoration: none;
+}
+
+.ici a:hover{
+    text-decoration: 2px underline #2ca58d;
+}
+
+
+
+
+footer{
+    display: flex;
+    background-image: linear-gradient(5deg,  #fce8ce 65%, #fad5a6 );
+    
+}
+
+.Copyright{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 80%;
+    text-align: center;
+    border-right: 5px double #0A2342;
+}
+
+.contact{
+    margin: 1%;
+    text-align: left;
+    width: 20%;
+    color: #0A2342;
 }
