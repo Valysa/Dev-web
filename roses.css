@@ -47,7 +47,7 @@ header{
     grid-column: 1/5 auto;
 }
 
-.choices:nth-child(1){
+.choices:nth-child(3){
     border-bottom: 3px #0A2342 solid;
 }
 
@@ -81,6 +81,25 @@ header{
     
 }
 
+.reception{
+    padding-top: 7%;
+    padding-bottom: 4%;
+    border-bottom: 1px solid black;
+    font-size: 140%;
+    text-align: center;
+}
+
+.reception a{
+    text-decoration: none;
+    color: #0A2342;
+}
+
+.reception a:hover{
+    border: 2px dashed #6f6e6d;
+    border-radius: 5%;
+    color: #6f6e6d;
+}
+
 .products{
     margin-top: 5%;
     margin-left: 2%;
@@ -110,29 +129,6 @@ li a:hover{
     font-size: 140%;
 }
 
-.connexion a{
-    text-decoration: none;
-    color: #0A2342;
-}
-
-.rightpart{
-    width: 85%;
-}
-
-.newcollec{
-    margin: 1%;
-    border: 5px dashed #2ca58d;
-    display: flex;
-    background-image: linear-gradient( #fad5a6 , #fce8ce);
-}
-
-.textmain{
-    font-size: 200%;
-    text-align: center;
-    width: 100%;
-    margin: 5%;
-}
-
 .ici{
     font-size: 300%;
     margin-top: 2%;
@@ -147,40 +143,11 @@ li a:hover{
     text-decoration: 2px underline #2ca58d;
 }
 
-.title2{
-    font-size: 300%;
-    margin: 3%;
-    text-align: center;
-    border-bottom: 2px dotted #0A2342;
-    border-top: 2px solid #0A2342;
-    padding: 2%;
+.rightpart{
+    width: 85%;
 }
 
-.prizelist{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
 
-.choices2{
-    border-right: 2px solid #2ca58d;
-    padding: 4%;
-    text-align: center;
-}
-
-.trophy{
-    border: 2px solid #6f6e6d;
-    border-radius: 40%;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    font-size: 300%;
-    background-image: radial-gradient(#2ca58d, #9fe9da);
-}
-
-.choices2 img{
-    margin-top: 5%;
-    width: 70%;
-    height: 70%;
-}
 
 footer{
     display: flex;
