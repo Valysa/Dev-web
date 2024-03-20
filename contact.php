@@ -6,9 +6,9 @@
         <?php
         use PHPMailer\PHPMailer\PHPMailer;
         use PHPMailer\PHPMailer\Exception;
-        require 'PHPMailer/src/Exception.php';
-        require 'PHPMailer/src/PHPMailer.php';
-        require 'PHPMailer/src/SMTP.php';
+        require 'PHPMailer-master/src/Exception.php';
+        require 'PHPMailer-master/src/PHPMailer.php';
+        require 'PHPMailer-master/src/SMTP.php';
         //NIQUE TA MERE LA PUTE LA GRANDE PUTE PUTE (date)
         $lname = $_POST["lname"];
         $fname = $_POST["fname"];
@@ -17,10 +17,12 @@
         //sexe le zizi le zizi
         $message = $_POST["content"];
         $subject = $_POST["subject"];
-        $email = $_POST["mailref"];
+        //$email = $_POST["mailref"];
 
         //generation du mail
         $mail = new PHPMailer(true);
+        echo $message ;
+        //echo $mail ;
         try { 
             $mail->isSMTP();
             $mail->Host = 'smtp.office365.com';
@@ -42,9 +44,9 @@
         $mail->send();
             echo 'Merci de votre retour, le mail a bien été envoyé'; 
         }  catch (Exception $e) { 
-            echo 'Une erreur est survenue lors de l envoi de mail, veuillez reessayer' . $mail->ErrorInfo; 
+            echo 'Une erreur est survenue lors de l envoi de mail, veuillez reessayer ' . $mail->ErrorInfo; 
         }
-        // echo $message ;
+        //echo $message ;
         //header("Location: validationcons.html");
         exit;
         ?>
