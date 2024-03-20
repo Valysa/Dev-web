@@ -203,7 +203,7 @@ select{
     width: 100%;
 }
 
-input[type="button"]{
+input[type="submit"]{
     border: 2px solid #fad5a6;
     border-radius: 25%;
     width: 10%;
