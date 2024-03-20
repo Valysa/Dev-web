@@ -4,8 +4,11 @@
         <title>Lafleur Enterprise</title>
         <link rel="stylesheet" type="text/css" href="bouquets.css">
         <script src="https://kit.fontawesome.com/b7b9424b27.js" crossorigin="anonymous"></script>
+       
     </head>
-    <body>
+    
+    <body onload="toggle()">
+        
         <header>
             <div class="banner">
                 <div class="pic">
@@ -62,6 +65,8 @@
                                 <th>Référence</th>
                                 <th>Désignation</th>
                                 <th>Prix</th>
+                                <th>Quantité commandée</th>
+                                <th class="hidden" >Stock</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -73,9 +78,18 @@
                                 <td>7</td>
                                 <td>7</td>
                                 <td>7</td>
+                                <td><div id="buttonquantity">
+                                    <button id="minus">-</button>
+                                    <p id="quantity">0</p>
+                                    <button id="add">+</button> <br>
+                                    </div>
+                                    <button>ajouter au panier</button>
+                            </td>
+                                <td class="hidden">4</td>
                             </tr>
                         </tbody>
                     </table>
+                    <button onclick="toggle()"> Stock</button>
                 </div>
             </div>
         </div>
@@ -91,5 +105,32 @@
                  <i class="fa-brands fa-github"></i> : github.com/Valysa/Dev-web
             </div>
         </footer>
+        <script>
+            function toggle(){
+                for(i = 0 ; i <document.getElementsByClassName('hidden').length ; i++)
+                    {
+                    document.getElementsByClassName("hidden")[i].style.display = document.getElementsByClassName("hidden")[i].style.display=='block' ? "none" : "block";
+                    }
+            }
+            const addbuton = document.getElementById('add');
+            const minusbutton = document.getElementById('minus');
+            const quantity = document.getElementById('quantity');
+            const stock =10;
+            let c =0;
+            function add(){
+                if (quantity.textContent<stock){
+                    c++;
+                    quantity.textContent=c;
+            }
+            }
+            function minus(){
+                if (quantity.textContent!=0){
+                    c--;
+                    quantity.textContent=c;
+                }
+            }
+            addbuton.addEventListener('click',add);
+            minusbutton.addEventListener('click',minus);
+        </script>
     </body>
 </html>

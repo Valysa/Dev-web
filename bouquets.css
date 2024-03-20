@@ -179,6 +179,14 @@ td{
     border-right: 2px dashed #6f6e6d;;
 }
 
+#buttonquantity{
+    display: flex;
+    align-items: center;
+}
+
+#buttonquantity button {
+    margin: 10px;
+}
 
 footer{
     display: flex;
