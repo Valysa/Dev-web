@@ -82,10 +82,10 @@
                                     <button id="minus">-</button>
                                     <p id="quantity">0</p>
                                     <button id="add">+</button> <br>
-                                    </div>
+                                    </div><br>
                                     <button>ajouter au panier</button>
                             </td>
-                                <td class="hidden">4</td>
+                                <td class="hidden"><p id="stock">10</p></td>
                             </tr>
                         </tbody>
                     </table>
@@ -112,10 +112,12 @@
                     document.getElementsByClassName("hidden")[i].style.display = document.getElementsByClassName("hidden")[i].style.display=='block' ? "none" : "block";
                     }
             }
+            toggle();
             const addbuton = document.getElementById('add');
             const minusbutton = document.getElementById('minus');
             const quantity = document.getElementById('quantity');
             const stock =10;
+            
             let c =0;
             function add(){
                 if (quantity.textContent<stock){
