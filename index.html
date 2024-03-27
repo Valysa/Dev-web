@@ -77,6 +77,22 @@
              <i class="fa-brands fa-github"></i> : github.com/Valysa/Dev-web</p>
         </div>
     </footer>
-    
+    <script>
+        function big(ImageID){
+            var img = document.getElementById(ImageID);
+            img.height = 400;
+            img.width = 500;
+        }
+        for (var i =1;i<=2;i++){
+            var img = document.getElementById(i);
+            if (img){
+                img.addEventListener('click',function(){
+                    big(i);
+                });
+            }
+        }
+    </script>
+
+
 </body>
 </html>
