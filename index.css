@@ -100,6 +100,23 @@ header {
     text-decoration: underline;
 }
 
+
+#buttonquantity{
+    display: inline-flex;
+    align-items: center;
+}
+
+#buttonquantity button {
+    margin: 10px;
+}
+
+table{
+    width: 90%;
+    margin-left: 1%;
+    margin-right: 1%;
+    text-align: center;
+}
+
 footer {
     display: flex;
     justify-content: space-between;
