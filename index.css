@@ -2,12 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #171a21; /* Couleur de fond sombre */
+    background-color: #051C24; /* Couleur de fond sombre */
     color: #fff; /* Couleur du texte */
 }
 
 header {
-    background-color: #171a21;
+    background-color: #051C24;
     padding: 20px;
     text-align: center;
 }
@@ -31,7 +31,7 @@ header {
 .menunav {
     display: flex;
     justify-content: center;
-    background-color: #1b2838; /* Couleur de fond du menu */
+    background-color: #003C57; /* Couleur de fond du menu */
     padding: 10px 0;
 }
 
@@ -39,9 +39,10 @@ header {
     padding: 10px 20px;
     margin: 0 5px;
     font-size: 1.2rem;
-    color: #fff;
+    color: #fff; /* Couleur du texte par défaut */
     text-decoration: none;
     transition: all 0.3s ease;
+    background-color: #003C57; /* Couleur de fond par défaut */
 }
 
 .choices:hover {
@@ -55,9 +56,13 @@ header {
     margin: 20px;
 }
 
+.featured-game{
+    margin-left: 40px;
+}
+
 .leftpart {
     width: 20%;
-    background-color: #1b2838;
+    background-color: #003C57;
     padding: 20px;
     border-radius: 10px;
 }
@@ -76,7 +81,7 @@ header {
 }
 
 .newcollec {
-    background-color: #1b2838;
+    background-color: #003C57;
     padding: 20px;
     border-radius: 10px;
 }
@@ -99,7 +104,7 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    background-color: #171a21;
+    background-color: #051C24;
     color: #fff;
 }
 
