@@ -2,19 +2,19 @@
 <html>
     <head>
         <title>Lafleur Enterprise</title>
-        <link rel="stylesheet" type="text/css" href="contact.css">
+        <link rel="stylesheet" type="text/css" href="index.css">
         <?php
         use PHPMailer\PHPMailer\PHPMailer;
         use PHPMailer\PHPMailer\Exception;
         require 'PHPMailer-master/src/Exception.php';
         require 'PHPMailer-master/src/PHPMailer.php';
         require 'PHPMailer-master/src/SMTP.php';
-        //NIQUE TA MERE LA PUTE LA GRANDE PUTE PUTE (date)
+        //Ok on prends la date mais pourquoi ?
         $lname = $_POST["lname"];
         $fname = $_POST["fname"];
         $email = $_POST["email"];
         $subject = $_POST["subject"];
-        //sexe le zizi le zizi
+        //Pareil pour le sexe
         $message = $_POST["content"];
         $subject = $_POST["subject"];
         //$email = $_POST["mailref"];
