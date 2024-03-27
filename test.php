@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Lafleur Enterprise</title>
-        <link rel="stylesheet" type="text/css" href="roses.css">
+        <link rel="stylesheet" type="text/css" href="index.css">
         <script src="https://kit.fontawesome.com/b7b9424b27.js" crossorigin="anonymous"></script>
     </head>
     <body>
@@ -10,7 +10,7 @@
         <div class="main">
             <?php require 'menuVertical.php'; ?>
             <div class="rightpart">
-                ROSES
+                Jeux solo
             </div>
         </div>
         <?php require 'pieddepage.php'; ?>

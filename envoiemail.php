@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Lafleur Enterprise</title>
+        <title>LeGaming Enterprise</title>
         <link rel="stylesheet" type="text/css" href="index.css">
         <?php
         use PHPMailer\PHPMailer\PHPMailer;

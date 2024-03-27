@@ -3,14 +3,14 @@
 <div class="leftpart">
     <div class="reception">
         Pour revenir à l'accueil : <br>
-    <a href="index.html">Accueil</a>
+        <a href="index.html">Accueil</a>
     </div>
     <div class="products">
         Voici nos produits : 
         <ul>
-            <li><a href="bouquets.html">Bouquets</a></li><br>
-            <li><a href="#">Roses</a></li><br>
-            <li><a href="plantes.html">Plantes</a></li>
+            <li><a href="jeux-solo.html">Jeux solo</a></li><br>
+            <li><a href="jeux-multi.html">Jeux multi</a></li><br>
+            <li><a href="jeux-coop.html">Jeux coop</a></li>
         </ul>
     </div>
     <div class="connexion">

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Lafleur Enterprise</title>
+        <title>LeGaming Enterprise</title>
         <link rel="stylesheet" type="text/css" href="envoiMail.css">
         <script src="https://kit.fontawesome.com/b7b9424b27.js" crossorigin="anonymous"></script>
     </head>
